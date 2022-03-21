@@ -31,7 +31,7 @@ function draw()
 
      function check_sketch(){
          timer_counter++;
-         document.getElementById("time").innerHTML = 'Timer : ' + timer_counter;
+         document.getElementById("time").innerHTML = "Timer : " + timer_counter;
          console.log(timer_counter)
          if(timer_counter>400){
              timer_counter = 0;
@@ -45,7 +45,7 @@ function draw()
      }
 
      
-function updateCanvas();
+function updateCanvas()
 {
     background("white");
     random_number = Math.floor((Math.random()*quick_draw_data_set)+1);
